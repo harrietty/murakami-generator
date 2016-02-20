@@ -1,0 +1,108 @@
+body {
+	background-color: #FAE8ED;
+}
+
+
+h1 {
+	font-family: 'Lobster', 'Helvetica', sans-serif;
+	font-size: 72px;
+	color: #85364D;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	font-family: "Noticia Text", "Helvetica", sans-serif;
+	font-size: 36px;
+	padding:20px;
+	color: #30171E;
+}
+
+.cherries {
+	width:100%;
+	position: fixed;
+	left: 0px;
+	top: 50px;
+	z-index: -10;
+	opacity: 0.3;
+
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.click {
+	height:40px;
+	margin:10px;
+	background-color: #fff;
+	flex: 1 150px;
+	font-family: "Helvetica";
+	font-weight: 100;
+	letter-spacing: 3px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 24px;
+	border-radius: 10px;
+	color: #F23D70;
+}
+
+.click:hover {
+	cursor: pointer;
+	background-color: #DBD9DA;
+}
+
+#output {
+	background-color: #fff;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 15px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+
+
+#quote {
+	font-family: 'Noticia Text', 'Helvetica', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+#source {
+	text-align: right;
+	font-family: 'Noticia Text', Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+
+
+@media screen and (max-width: 360px), screen and (max-device-width: 360px) {
+
+	h1 {
+		font-size: 48px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+	.click {
+		margin:5px;
+		height:30px;
+		line-height: 30px;
+	}
+
+	#output {
+		width:90%;
+		margin: 0 auto;
+		margin-top:30px;
+	}
+}
+
+
+
